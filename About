@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Overview of Myself</title>
+</head>
+<body>
+    <h1>About Me</h1>
+    <p>Hello, Nama saya Muhammad Rifqi Ismulyono. Saya adalah seorang siswa dan saya.</p>
+    <h2>Education</h2>
+    <p>Saya sekolah di SMKN 1 ADIWERNA . Saya juga sedang mengikuti NDP Nusantech untuk menambah ilmu dan skill.</p>
+    <h2>Experience</h2>
+    <p>Saya pernah mengikuti beberapa sertifikasi IT seperti Dicoding, REDHAT Certification, Coursera dan lain-lain. Saya juga pernah mendapatkan projek untuk membuat alat IoT dan itu berhasil.</p>
+    <h2>Skills</h2>
+    <ul>
+        <li>Mudah bekerja sama</li>
+        <li>Problem Solving</li>
+        <li>Bisa menggunkan beberapa bahasa pemrograman</li>
+    </ul>
+    <h2>Interests</h2>
+    <p>Saat waktu senggang saya biasanya melakukan hobi saya yaitu membuat alat IoT dan bermain game. saya berharap dengan mengikuti event dari NDP Nusantech saya bisa mengasa skill saya dan bisa berguna di dunia industri.</p>
+</body>
+</html>
