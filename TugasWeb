@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ddd;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            margin: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        p {
+            margin-bottom: 10px;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+        
+        .about-me {
+            text-align: left;
+            margin-bottom: 15px;
+        
+        }
+        
+        .skills {
+            margin-bottom: 20px;
+        }
+        
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .skills li {
+            display: inline-block;
+            margin-right: 10px;
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        
+        .projects {
+            margin-bottom: 20px;
+        }
+        
+        .projects h2 {
+            margin-bottom: 10px;
+        }
+        
+        .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .projects li {
+            margin-bottom: 5px;
+        }
+        
+        .contact {
+            text-align: center;
+        }
+        
+        .contact a {
+            color: #333;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .tombol {
+            display: inline-flex;
+            justify-content: left;
+            border-radius: 5px 5px 0 0;
+        }
+        .tombol a {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+
+        .tombol ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .tombol a:hover {
+            background-color: #ddd;
+            color: black;
+            cursor: pointer;
+            transform: scale(1.03);
+            transition: all 1s ease;
+        }
+
+        .image {
+            background-image: url("image/1.jpg");
+            float: right;
+            display: inline-flex;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: right;
+        }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+            cursor: pointer;
+            transform: scale(1.03);
+            transition: all 1s ease;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+        .card {
+            background: white;
+            width: 240px;
+            height: 400px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+    
+        .card-image {
+            background-color: rgb(57, 57, 57);
+            height:  150px;
+            margin-bottom: 15px;
+            background-size: cover;
+            border-radius: 5px 5px 0 0;
+        }
+    
+        .car-1 {
+            background-image: url("image/CK-22.jpg");   
+        }
+    
+        .car-2 {
+            background-image:  url("image/free-photo-of-orang-pohon-bukit-perjalanan.jpeg");
+        }
+    
+        .car-3 {
+            background-image:  url("image/download.jpg");
+        }
+    
+        .card h2 {
+            padding: 5px;
+        }
+    
+        .card p {
+            padding: 3px;
+        }
+    
+        .card a {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            display: block;    
+            text-align: center;
+            margin: 5px 50px;
+            text-decoration: none;
+        }
+    
+        .card:hover {
+            background-color: rgb(108, 108, 108);
+            color: white;
+            cursor: pointer;
+            transform: scale(1.03);
+            transition: all 1s ease;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .fa {
+            border: none;
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+            text-decoration: none;
+            margin: 5px 5px;
+            background-size: cover;
+            display: flex;
+            border-radius: 50%;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            color: white;
+        }
+
+        .fa-twitter {
+            color: white;
+        }
+
+        .fa-linkedin {
+            color: white;
+        } 
+
+        .fa-instagram {
+            color: white;
+        }
+
+        .body-logo {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0 30px 0;
+        }
+
+        .penutup {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+    </header>
+    <div class="navbar">
+        <a href="HTML_PBI.html">About Me</a>
+        <a href="MY_CV.html">My CV</a>
+    </div>
+    <main>
+        <div class="about-me">
+            <img src="image/1.jpg" class="profile-image" style="float: right;">
+            <h2>Hi, Guys Welcome to the Home Page</h2>
+            <h2>I'M Muhammad Rifqi Ismulyono, Student and IT Enthusiast</h2>
+            <p>I am a student from SMKN 1 Adiwerna and I am an IT enthusiast. I also took several certifications such as from REDHAT, Coursera, Dicoding, and Great Learning. I also have experience in the IoT field because I received several IoT projects from school and outside the school environment, examples of my IoT projects include making a flood disaster detection tool (SiBeo) and an air pollution level measuring tool (AQUMOS).</p>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Cisco</li>
+                <li>IoT</li>
+            </ul>
+        </div>
+        <div class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Deploy IoT</li>
+                <li>E-commerce Website</li>
+                <li>Website</li>
+            </ul>
+        </div>
+        <div class="tombol">
+            <ul>
+                <a href="HTML_PBI.html">About Me</a>
+                <a href="#">My CV</a>
+            </ul>
+        </div>
+        <section class="container">
+            <div class="card"> 
+                <div class="card-image car-1"></div>
+                <h2>Karyo</h2>
+                <p style="color: thistle;">CEO & Founder</p>
+                <p>Seorang CEO di suatu perusahaan dibidang pertanian</p>
+                <p href="">example@example.com</p>
+                <a href="">READ MORE</a>
+            </div>
+            <div class="card">
+                <div class="card-image car-2"></div>
+                <h2>Siti</h2>
+                <p style="color: thistle;">CEO & Fouder</p>
+                <p>seorang CEO di suatu perushaan dibidang pariwisata</p>
+                <p href="">example@example.com</p>
+                <a href="">READ MORE</a>
+            </div>
+            <div class="card">
+                <div class="card-image car-3"></div>
+                <h2>Gaby</h2>
+                <p style="color: thistle;">CEO & Founder</p>
+                <p>seorang CEO di suatu perusahaan dibidang ekonomi</p>
+                <p href="">example@example.com</p>
+                <a href="">READ MORE</a>
+            </div>
+        </section>
+        <div class="penutup">
+            <header>
+                <h1>How to Hire My Services?</h1>
+            </header>
+        
+            <main>
+                <p>I work on projects with the best results and according to deadlines. Guaranteed revisions and money back if you are not satisfied with my work.</p>
+        
+                <p>If you have any questions, feel free to reach out to me at myemail@example.com.</p>
+            </main>
+            <ul class="body-logo" style="background-color: #333;">
+                <a href="https://www.facebook.com/kiki.muhamat.37/?locale=id_ID" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/muhammad-rifqi-ismulyono-048b03244/" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/w1nlost/" class="fa fa-instagram"></a>
+            </ul>
+            <footer>
+                <p>Copyright by KIKO</p>
+            </footer>
+        </div>
+
+</body>    
