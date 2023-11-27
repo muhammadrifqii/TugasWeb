@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>How to Hire My Services?</title>
+    <style>
+        h2 {
+            background-color: aliceblue;
+            padding: 20px 20px;
+            margin: 20px 0 0 0;
+        }
+    </style>
+<body style="background-color: grey;">
+    <h2 ><center>My CV</center></h2>
+    <embed src="image/CV_M_Rifqi_Ismulyono.pdf" type="application/pdf" width="700px" height="700px"></embed>
+</body>
